@@ -10,3 +10,5 @@ export const x = function () {
 	const a = arguments[0];
 	return a;
 };
+
+console.log(x(1));
